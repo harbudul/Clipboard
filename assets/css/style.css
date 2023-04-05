@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+*{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+
+.img-header{
+    background-image: url(/assets/images/bg-header-desktop.png);
+}
+
+.img-header img{
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+
+.hero{
+    padding: 0% 23%;
+}
+
+.hero h1{
+    font-weight: 600;
+    /* padding: 0% 15%; */
+
+}
+
+.hero p{
+    font-weight: 400;
+    /* padding: 0% 25%; */
+
+}
+
+.download{
+    padding-top: 25px;
+}
+
+.ios{
+    background-color: hsl(171, 66%, 44%);
+    padding: 16px 20px;
+    border-style: none;
+    color: white;
+}
+
+.mac{
+    background-color: hsl(233, 100%, 69%);
+    padding: 16px 20px;
+    border-style: none;
+    color: white;
+}
+
+.track{
+    padding: 150px 0px 0px 0px;
+}
+
+/* footer */
+
+.footer{
+    background-color: #F5F6F8;
+}
+
+
+@media screen and (max-width:992px){
+    .img-header{
+        background-image: url(/assets/images/bg-header-mobile.png);
+    }
+
+    .hero{
+        padding: 0% 10%;
+    }
+
+    .quick{
+        padding: 0% 10%;
+    }
+
+    .track-image{
+        padding: 50px 0px;
+    }
+
+    .workflow{
+        padding: 0% 5%;
+    }
+    
+
+    /* footer */
+
+    .footer{
+        background-color: #F5F6F8;
+    }
+    
+ 
+}

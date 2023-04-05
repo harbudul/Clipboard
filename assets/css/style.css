@@ -6,7 +6,7 @@
 }
 
 .img-header{
-    background-image: url(/assets/images/bg-header-desktop.png);
+    background-image: url(../assets/images/bg-header-desktop.png);
 }
 
 .img-header img{
@@ -61,7 +61,7 @@
 
 @media screen and (max-width:992px){
     .img-header{
-        background-image: url(/assets/images/bg-header-mobile.png);
+        background-image: url(../images/bg-header-mobile.png);
     }
 
     .hero{
